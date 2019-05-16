@@ -1,0 +1,211 @@
+* {
+    box-sizing: border-box;
+    
+}
+
+body {
+    margin: 0;
+        
+}
+
+.container {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#main-nav {
+    background-color: rgb(0, 0, 0);
+       
+}
+
+nav {
+    padding: 4px;
+   
+}
+header ul li {
+    font-weight: bold;
+}
+
+ul{
+    padding: 0;
+    margin: auto;
+}
+
+ul li {
+    color: rgb(199, 199, 199);
+    display: inline-block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 9px;
+    font-size: 12px;
+}
+
+ul li:hover {
+    color:rgb(255, 0, 170);   
+}
+
+.main-logo {
+    height: 50px;
+    padding: 6px;
+    background-color: #ff0082;
+}
+
+.main-text-t-home {
+    float: right;
+    padding-right: 9px;
+    
+}
+
+.main-logo-t-home {
+    float: left;
+    padding-left: 9px;
+
+}
+
+.main-menu {
+    border-bottom: 1px solid #c3c3c3;
+    padding-left: 6px;
+  
+}
+
+.main-menu ul li {
+    color: rgb(32, 32, 32);
+
+}
+
+
+ul li ul {
+    display: none;
+    position: relative;
+    visibility: 1;
+    background-color: #acacac;
+
+}
+
+ul li ul li {
+    clear: both;
+    width: 100%;
+}
+
+ul li:hover > ul, 
+ul li ul:hover {
+    visibility: visible;
+    opacity: 1;
+    display: block;
+    position: absolute;
+}
+
+.menu {
+    display: block;
+    position: relative;
+}
+
+.sub-menu {
+    display: block;
+    height:50px;
+    background-color: #fafafa;;
+    border: 1px solid #ededed;
+    
+    
+}
+
+.sub-menu ul li{
+    color: rgb(37, 37, 37);
+
+}
+
+.menu-buttons20 {
+    width: 20%;
+    height: 400px;
+    background-color: #fafafa;
+    float: left;
+
+}
+
+.menu-phones80 {
+    margin-top: 19px;
+    display: flex;
+}
+
+.phones25 {
+    width: 33%;
+    background-image: url("https://www.telekom.mk/images/top3-imgBackground.png");
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    border-image: 1em;
+    height: 430px;
+    border: 1px solid #ededed;
+    margin: 0px -1px 0px 13px;
+}
+
+.box-dropdown {
+    display: inline-flex;
+    border-left: 1px solid #ededed;
+    padding: 15px;
+    padding-right: 84px;
+    font-size: 10px;
+    font-size: 15px;
+    color: #5d5d5d;
+
+}
+
+h3 {
+    font-weight: unset;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.phones25 img {
+    position: absolute;
+}
+
+
+img.bоnus {
+    margin-left: 130px;
+    max-height: 72px;
+}
+
+.single-dropdown-button {
+    top: 0;
+    width: 15px;
+    height: 15px;
+    border: 2px solid #dddddd;
+    color: #dddddd;
+    margin: 8px 8px;
+    float: right;
+}
+
+.sub-menu .container .box-dropdown :last-child {
+    border-right:1px solid #ededed;
+    
+
+}
+
+.single-dropdown-button h2 sub {
+    display: inline;
+    position: relative;
+    
+}
+
+.details-prices {
+    height:100px;
+    
+
+}
+
+input[type="radio"] {
+    font-size: 20px;
+
+}
+
+
+
+
+
+
+
+  
+
+  
