@@ -1,0 +1,164 @@
+* {
+    box-sizing: border-box;
+    
+}
+
+.container {
+    width: 75%;
+    margin:0 auto;
+}
+
+h1 {
+    font-size: 103px;
+    color: rgb(17, 120, 255);
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    margin:0;
+    font-stretch: condensed;
+}
+
+hr {
+    height: 26px;
+    background-color: rgb(17, 120, 255);
+    border: none;
+}
+
+.box {
+    float: left;
+    border: 2px solid rgb(17, 120, 255);
+    padding: 9px;
+    padding-left: 35px;
+    padding-right: 35px;
+    width: 336px;
+    text-align: center;
+}
+
+.box hr {
+    height: 1px;
+    width: 67px;
+    background-color: rgb(17, 120, 255);
+    margin: 0;
+    display: inline-block;
+}
+
+.box p {
+    font-family: 'Tangerine', serif;
+    font-size: 30px;
+    margin: 0;
+    text-align: center;
+
+}
+
+p {
+    color: rgb(17, 120, 255);
+    
+}
+
+.content {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-gap: 1px;
+    grid-template-rows: 190px;
+    margin-top: 10px;
+}
+
+section {
+    border: 20px solid rgb(17, 120, 255);
+    background-color: rgb(0, 0, 0);
+}
+
+img {
+    height: 150px;
+}
+
+nav {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    background-color: #e3e3e3;
+    color: rgb(17, 120, 255);
+}
+
+section {
+        grid-column: 4/10;
+}
+
+aside {
+    grid-column: 10/13;
+}
+footer{
+    grid-column: 4/13;
+    display: -webkit-inline-box;
+    margin: 39px 10px 10px 10px;
+}
+
+h2 {
+    color: beige;
+    font-family: sans-serif;
+    font-size: 34px;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 21px;
+    margin: 0;
+}
+
+li {
+    padding: 6px;
+    text-transform: none;
+    font-weight: 500;
+}
+
+nav ul hr {
+    height:2px;
+    background-color: rgb(17, 120, 255);
+    margin-right: 16px;
+}
+
+.text {
+    height: 135px;
+}
+
+.box2 {
+    text-align: center;
+    border: 2px solid rgb(17, 120, 255);
+    padding: 16px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-left: 8px;
+    margin-top: 8px;
+    color: rgb(17, 120, 255);
+}
+
+aside p {
+    padding-left: 10px;
+    font-size: 15px;
+    
+}
+
+aside p {
+    margin: 0;
+}
+
+footer p {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+.text h1 {
+    text-align: end;
+}
+
+sub {
+    float: right;
+    color: rgb(17, 120, 255);
+}
+
+
