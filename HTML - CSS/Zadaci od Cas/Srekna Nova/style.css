@@ -1,0 +1,105 @@
+body {
+    box-sizing: border-box;
+    background-color: #de2f32;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1000px;
+    
+}
+
+.christmas-card {
+    margin: 0 auto;    
+    width: 1000px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+
+.box-for-santa {
+    background-image:url("images/dedo-mraz.png");
+    border: 5px solid white;
+    border-radius: 50%;
+    height: 240px;
+    width: 240px;
+    position: relative;
+    margin: 0 auto;
+    background-size: 175px;
+    background-repeat: no-repeat;
+    background-color: turquoise;
+    background-position: center;
+    
+}
+.wishes-wrapper {
+    width: 100%;
+    background-color: #0f8a5f;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border: 3px solid white;
+    height: 200px;
+    text-align: center;
+
+}
+
+.box-33 {
+    width: 33%;
+    float: left;
+
+      
+}
+
+.container .main-title {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+
+.wish-item  {
+  text-align: center;
+    
+}
+
+
+.wish-item img {
+    height: 150px;
+    position: relative;
+    
+    
+}
+
+.wish-item .borders-white {
+    position: relative;
+    float: left;
+}
+
+.wish-item.borders-white p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    color:white;
+    background-color: #de2f32;
+    padding: 9px;
+    margin: 7px 10px;
+}
+
+.borders-white {
+    border-left: 2px dashed white;
+    border-right: 2px dashed white;
+}
+
+.wish-item p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    color:white;
+    background-color: #de2f32;
+    padding: 9px;
+    margin: 7px 10px;
+}
+
+
+
+
+

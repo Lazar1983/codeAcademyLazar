@@ -1,0 +1,219 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    max-width: 85%;
+    margin: 0 auto;
+
+}
+
+.login {
+    display: flex;
+    justify-content: flex-end;
+    color: darkgrey;
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: 500;
+}
+
+.vr-line {
+    background-color: darkgrey;
+    width: 1px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 2px;
+}
+
+.directory {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.main-menu {
+    display:flex;
+    
+}
+
+.main-menu span {
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-left: 14px;
+    margin-right: 58px;
+    color: #505050;
+}
+
+.main-menu input {
+    width: 325px;
+    font-size: 12px;
+    padding-left: 10px;
+    color: darkgray;
+}
+
+.nav-bar {
+    border:1px solid darkgrey;
+    height: 43px;
+}
+
+.-nav-bar .left-nav-bar ul {
+    padding: 0;
+    margin: 9px;
+}
+
+.nav-bar .left-nav-bar ul li {
+    display: inline;
+    text-transform: uppercase;
+    color: #343838;
+    font-weight: 500;
+    font-size: 12px;
+    padding: 13px 35px;
+    border-left:1px solid #bdbec0;
+}
+
+.left-nav-bar li {
+    display: block;
+}
+
+.nav-bar .left-nav-bar ul li:hover {
+    background: #f2f2f2;
+
+}
+
+.left-nav-bar {
+    float: left;
+}
+
+.right-nav-bar {
+    float: left;
+}
+
+.right-nav-bar ul {
+    margin: 0;
+    padding: 12px;
+    background: #29a3ce;
+    margin-left: 15px;
+    width: 175px;
+    list-style: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 13px;
+    color: white;
+}
+
+.right-nav-bar ul li:hover {
+    background: #29a3ce;
+    cursor: pointer;
+}
+
+.right-nav-bar ul li ul {
+    display: none;
+    position: relative;
+    background-color: #29a3ce;
+    margin-top: 13px;
+}
+
+.right-nav-bar ul li:hover > ul, 
+ul li ul:hover {
+    display: block;
+    visibility: visible;
+    position: absolute;
+    margin-left: -30px;
+
+}
+
+.main-wrapper {
+    
+}
+
+.main-section {
+    width: 97%;
+    margin:0 auto;
+}
+
+.main-section > img {
+    height: 345px;
+}
+
+section {
+    margin-top: 20px;
+    width: 70%;
+    float: left;
+    height: 2000px;
+    margin:0 auto;
+}
+
+aside {
+    
+    width: 30%;
+    float: left;
+    height: 2000px;
+    background-color: #f2f2f2
+}
+
+.aside-info {
+    width: 90%;
+    margin:0 auto;
+}
+
+a {
+    list-style: grey;
+    color: cornflowerblue;
+    text-decoration: unset;
+    font-size: 13px;
+}
+
+.api-boxes {
+    height: 373px;
+}
+
+.box33 {
+    width: 33%;
+    float: left;
+}
+
+.main-api-info {
+    background-color: #f2f2f2;
+    height: 20px;
+    font-weight: bold;
+}
+
+.info-wrapper {
+    height: 50px;
+    background-color: #f2f2f2;
+    padding-top: 12px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+.info-wrapper a {
+    text-transform: uppercase;
+}
+
+.box33 a img {
+    width: 100%;
+}
+
+
+.image-footer {
+    text-align: center;
+}
+
+
+
+
+
+

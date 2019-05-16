@@ -1,0 +1,527 @@
+* {
+    box-sizing: border-box;
+    font-family: Lato;
+}
+
+body {
+    margin:0;
+}
+
+
+.clearfix:before, .clearfix:after 
+{ content: ""; 
+display: table; 
+} 
+
+.clearfix:after { 
+clear: both; } 
+
+.clearfix { 
+clear:  both; 
+*zoom: 1; 
+} 
+
+header {
+    background-color:  #313131;
+    height:50px;
+
+}
+
+.contact {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: flex-end;
+}
+
+span.contact-us {
+    
+    color: #7f7f7f;
+    font-size: 12px;
+    padding-top: 17px;
+}
+
+.contact span {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 200;
+    color: white;
+    margin-right: 30px;
+    padding-top: 15px;
+}
+
+.fa {
+    padding: 11px;
+    
+    width: 41px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    font-size: 24px;
+}
+
+
+  
+.fa-facebook {
+    background: #dedede;
+    color: black;
+    border-radius: 25px;
+}
+  
+.fa-twitter {
+    background: #dedede;
+    color: black;
+    border-radius: 25px;
+  }
+
+.fa-instagram {
+    background: #dedede;
+    color: black;
+    border-radius: 25px;
+  }
+
+i.fa.fa-phone {
+      color:red;
+  }
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+}
+
+li {
+    padding: 16px;
+    padding-right: 0;
+}
+
+.left-nav a {
+    text-decoration: none;
+    color:black;
+}
+
+
+
+
+ul.right-nav li a:hover {
+    color:rgb(67, 117, 255);
+}
+
+ul.left-nav li a:hover {
+    color: darkolivegreen;
+}
+
+ul li ul {
+    display: none;
+}
+
+ul li ul li {
+    display: block;
+}
+
+ul li:hover > ul,
+ul li ul:hover {
+    
+    visibility: visible;
+    background-color: #dedede;
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    height: auto;
+    display: -webkit-inline-box;
+}
+
+nav img {
+    height:60px;
+    padding: 4px;
+}
+
+.right-nav a {
+    text-decoration: none;
+    color:red;
+
+}
+
+section {
+    background-image: url("images/main-back.jpg");
+    background-repeat: no-repeat;
+    background: cover;
+    height: 500px;
+    padding-top: 100px;
+    overflow: hidden;
+    
+
+}
+
+.welcome {
+    background-color: #5555554f;
+    height: 200px;
+    width: 50%;
+    float: right;
+    text-align: right;
+    color: white;
+    overflow: hidden;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.welcome h1 {
+    font-size: 41px;
+    margin: 21px;
+    font-weight: 200;
+}
+
+.welcome p {
+    font-size: 62px;
+    text-transform: uppercase;
+    margin: 0;
+    margin: 21px;
+}
+
+#diets {
+    width: 75%;
+    margin:0 auto;
+    
+}
+
+.box25 {
+    height:250px;
+    width: 250px;
+    float: left;
+    margin-top: -125px;
+}
+
+.box25 p {
+    font-size: 20px;
+    color:white;
+}
+
+.strawberry {
+    background-color:  #e22f37 ;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.watermelon {
+
+    background-color:  #c0262d ;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.apple {
+    background-color:  #a62329 ;
+    text-align: center;
+    padding-top: 50px;
+
+}
+
+.grapes {
+    background-color: #952025 ;
+    text-align: center;
+    padding-top: 50px;
+ 
+}
+
+
+#Whoweare h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 50px;
+    color:#a62329 ;
+    margin-top: 100px;
+}
+
+
+.image {
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    background-image: url("images/fruit-hearth.jpg");
+    background-size: 979px;
+    background-position-x: -10px;
+    background-position-y: -10px;
+    box-shadow: -10px 10px crimson;
+    float: left;
+    
+}
+
+.slogan {
+    float: left;
+    height: 500px;
+    width: 500px;
+    margin-top: 100px;
+    padding-left: 50px;
+    
+}
+
+.slogan p {
+    font-size: 22px;
+}
+
+
+
+.slogan h3 {
+    font-size: 20px;
+    background-color: green;
+    padding: 30px;
+    color: white;
+    text-align: center;
+    background: 
+    linear-gradient(to right, rgb(255, 0, 0) 0%, rgb(255, 117, 0) 50%, rgb(255, 122, 0) 51%, rgb(122, 255, 0) 100%);
+}
+
+.slogan h2 {
+    font-size: 20px;
+    color:red;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+div#Whoweare {
+    margin-bottom: 100px;
+    overflow: hidden;
+}
+
+.gallery img {
+    height:145px;
+}
+
+.slogan p b {
+    text-transform: uppercase;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    
+}
+
+.gallery .image03 {
+    grid-column: 3/5;
+
+}
+
+footer {
+    background-color: #313131;
+    height: 50px;
+    margin: -3px;
+    overflow: hidden;
+}
+
+footer p {
+    color: rgb(214, 214, 214);
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+    padding-top: 16px;
+    font-size: 14px;
+}
+
+#team{
+    height: 350px;
+}
+
+.team-text {
+    background-color: #313131;
+}
+
+#team h1 {
+    font-size: 66px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 6px;
+    font-weight: 100;
+    margin:0;
+    padding: 135px;
+}
+
+.team-text {
+    background-color: #31313178;
+    height: 350px;
+    margin: -99px;
+}
+
+.team-images {
+    display: flex;
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 80px;
+    position: relative;
+
+}
+
+.team-images img {
+    max-width: 100%;
+    border-radius: 25px;
+    padding: 14px;
+    
+}
+
+.team-images p {
+    position: absolute;
+}
+
+.team-action {
+    width: 50%;
+    margin:0 auto;
+    margin-bottom: 100px;
+}
+
+.team-action h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 50px;
+    color:#a62329 ;
+    margin-top: 100px;
+    font-weight: 100;
+}
+
+iframe {
+    width: 608px;
+    height: 346px;
+}
+
+.main-menu label {
+    display: none;
+}
+
+.box50-1 {
+    float: left;
+}
+
+
+
+@media only screen and (max-width: 767px) {
+    
+    .main-menu label {
+        display: block;
+    }
+
+    .left-nav {
+        display: none;
+        padding: 10px 0;
+        width: 100%;
+        background-color: lightgrey;
+    }
+
+    label {
+        font-size: 28px;
+    }
+
+    .main-menu {
+        display: flex;
+        flex-direction: column;
+        transition: cubic-bezier(0, 0, 0, 0.88);
+           
+    }
+
+    .main-menu:hover .left-nav  {
+        display: flex;
+
+    }
+
+
+    
+    .gallery {
+        grid-template-columns: repeat (4,1fr);
+    }
+  
+    .container {
+        width: 100%;
+    }
+
+    .right-nav {
+        display: none;
+    }
+
+    .box25 {
+        margin: 0;
+        width: 50%;
+    }
+
+    #diets {
+        display: initial;
+        width: 100%;
+    }
+
+    #Whoweare h1 {
+        font-size: 33px;
+    }
+
+    section {
+        background-size: 100%;
+        height: auto;
+        padding-top: 0;
+    }
+
+    .welcome {
+        width: 100%;
+        height: 230px;
+    }
+
+    .contact span {
+        font-size: 12px;
+    }
+
+    .image {
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 313px;
+        width: 100%;
+    }
+
+    .slogan {
+        width: 100%;
+    }
+
+    .slogan p {
+        font-size: 13px;
+    }
+
+ 
+
+
+ 
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
