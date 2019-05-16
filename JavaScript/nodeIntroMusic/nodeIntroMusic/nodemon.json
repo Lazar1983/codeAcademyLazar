@@ -1,9 +1,0 @@
-{
-    "watch": ["./"],
-    "ext": "js, njk, css",
-    "delay": "3",
-    "exec": "browser-refresh main.js",
-    "env": {
-        "NODE_ENV": "development"
-    }
-}
