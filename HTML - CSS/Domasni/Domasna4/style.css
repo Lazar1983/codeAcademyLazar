@@ -1,0 +1,112 @@
+
+header {
+    height: 70px;
+    weight: 100%;
+    position: relative;
+}
+
+header img {
+    max-width: 211px;
+    padding: 10px 11px 11px 140px;
+    margin: -1p;
+}
+
+header nav ul li {
+    float: left;
+    font-weight: bold;
+    list-style-type: none;
+    padding: 10px;
+}
+
+header nav ul {
+    position: absolute;
+    right: 140px;
+    top: 9px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.slika1 {
+    width: 79%;
+    overflow: hidden;
+    padding: 5px 140px;
+}
+
+.slika1 img {
+    width: 100%;
+    overflow: hidden;
+    
+}
+
+.details-item {
+    height: 360px;
+}
+
+.details-item1 {
+    width: 50%;
+    float: left;
+    position: relative;
+    left: 138px;
+    
+}
+
+.details-item2 {
+    width: 50%;
+    float: left;
+    position: relative;
+}
+
+.details-item .details-item1 img {
+    height: 215px;
+}
+
+.details-item .details-item2 img {
+    height: 215px;
+}
+
+.details-item1 .details-logo1 {
+    position: relative;
+    left: 15px;
+    top: -123px;
+}
+
+.details-item1 .details-logo1 img {
+    background-color: white;
+    height: 127px; 
+}
+
+.details-item2 .details-logo2 {
+    position: relative;
+    left: 15px;
+    top: -123px;
+}
+
+.details-item2 .details-logo2 img {
+    background-color: white;
+    height: 127px;
+}
+
+p.naslov2 {
+    font-weight: bold;
+    text-align: -webkit-center;
+    font-family: sans-serif;
+}
+
+p.naslov3 {
+    font-weight: bold;
+    text-align: -webkit-center;
+    font-family: sans-serif;
+}
+
+.details-end {
+    border: 1px solid whitesmoke;
+    margin: 0 140px;
+}
+
+h1.naslov3 {
+    text-align: center;
+}
+
+p.text {
+    text-align: center;
+}

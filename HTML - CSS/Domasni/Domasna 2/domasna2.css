@@ -1,0 +1,28 @@
+.horizontalna {
+    text-transform: uppercase;
+    float: left;
+}
+
+.vertikalna {
+    float: right;
+    background-color: blueviolet;
+}
+
+#listi ul.horizontalna li {
+    float: left;
+    list-style-type: none;
+    height: 30px;
+    padding: 0 15px;
+
+}
+
+#listi ul li{
+    background-color: blueviolet;
+    border: 2px solid yellow;
+}
+
+ul.vertikalna {
+    list-style-type: none;  
+    text-transform: uppercase;
+    margin: 0 15px;
+}

@@ -1,2 +1,1 @@
-# codeAcademyLazar test
-zdravo
+# codeAcademyLazar
