@@ -1,0 +1,179 @@
+* {
+    box-sizing: border-box;
+    
+}
+
+body {
+    margin: 0 auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    line-height: 1,6em;
+  
+       
+}
+
+.container {
+    background-color: rgb(255, 0, 170);    
+    background-size: cover;
+    height: 1000px;
+
+}
+
+#main-nav {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+       
+}
+
+nav {
+    width: 70%;
+    margin: auto;
+    padding: 4px;
+   
+}
+
+ul{
+    padding: 0;
+    margin: auto;
+    overflow: hidden;
+
+}
+
+ul li {
+    color: rgb(199, 199, 199);
+    display: inline-block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 9px;
+    font-size: 12px;
+}
+
+ul li:hover {
+    color:rgb(255, 0, 170);   
+    
+    
+}
+
+.main-menu {
+    height: 50px;
+    background-color: white;
+    position: absolute;
+    width: 100%;
+   
+}
+
+.main-logo {
+    height: 80px;
+    padding: 10px;
+    margin: 0;
+    background-color: #ff0082;
+    width: 80%;
+    
+}
+
+.main-text-t-home {
+    float: right;
+    display: inline-block;
+    padding-right: 120px;
+    
+}
+
+.main-logo-t-home {
+    float: left;
+    padding-left: 120px;
+
+}
+
+.main-menu ul li {
+    color: rgb(32, 32, 32);
+}
+
+.main-baner {
+    height: 600px;
+    background-color: rgb(255, 0, 170);
+    width: 80%;
+    margin: 0 auto;       
+}
+
+.menu-promotion {
+    height: 60px;
+    background-color: black;
+}
+
+.menu-promotion ul li {
+    color:rgb(235, 235, 235);
+}
+
+.box-33 {
+    width: 33%;
+    float: left;
+}
+
+.phones {
+    width: 100%;
+    background-color: white;
+    height: 600px;
+    padding-top: 50px;
+}
+
+.phones .box-33 img:nth-child(1) {
+    position: absolute;
+    padding-left: 216px;
+   
+}
+
+.huawei {
+    width: 50%;
+    float: left;
+}
+
+.iphonex {
+    width: 50%;
+    float: left;
+}
+
+h1 {
+    text-align: center;
+    font-size: 20px;
+}
+
+.ceni {
+    width: 100%;
+    margin: 0 auto;
+    
+}
+
+.ceni2 {
+    width: 100%;
+    margin: 0 auto;
+    
+}
+
+.ceni3 {
+    width: 100%;
+    margin: 0 auto;
+    
+}
+
+p {
+    color: rgb(255, 0, 170);   
+    font-size: 25px;
+}
+input {
+color: white;
+text-align: center;
+background-color: #ff0082;
+border: none;
+border-radius: 15px;
+padding: 10px;
+margin-top: 23px;
+}
+
+.ceni50 {
+    width: 50%;
+    float: left;
+}
+
+.more-for-phones {
+    width: 50%;
+    float: left;
+}

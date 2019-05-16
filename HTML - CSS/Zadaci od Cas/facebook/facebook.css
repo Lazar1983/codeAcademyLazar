@@ -1,0 +1,112 @@
+body {
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+div {
+    display: block;
+}
+
+.bluebar img {
+    width: 200px;
+    float: left;
+    
+}
+
+.bluebar {
+    background-color: #3b5998;
+    height: 76px;
+    margin: 0 auto;
+    background-image: linear-gradient(#4e69a2, #3b5998 50%);
+    margin: 0 auto;
+    border-bottom: 1px solid #133783;
+}
+
+.logo-fb {
+    margin-left: 169px;
+}
+
+
+form {
+    margin: 0;
+    padding: 0;
+}
+
+.login-container table tr td {
+    padding-left: 14px;
+}
+
+.login-container .email-pass-log {
+    padding-bottom: 4px;
+}
+
+.login-container .email-pass-log label {
+    color: #fff;
+    font-weight: normal;
+    padding-left: 1px;
+}
+
+body, button, input, label, select, td, textarea {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+}
+
+label {
+    vertical-align: middle;
+}
+
+
+.login-container .log-email, .login-container .log-password {
+    border: #1d2a5b;
+    margin: 0;
+    width: 142px;
+}
+
+.log-email, .log-password {
+    border: 1px solid #bdc7d8;
+    margin: 0;
+    padding: 3px;
+}
+
+.login-container {
+    float: right;
+    margin: 6px 196px;
+}
+
+.log-forgot {
+    color: #9cb4d8;;
+}
+
+
+.big-container {
+background: #ebedf0;
+width: 100%;
+margin: 0 auto;
+height: 600px;
+
+}
+
+.center-container {
+    margin: 0 auto 30px auto;
+    padding: 0 20px 0 0;
+    width: 400px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.big-container .center-container h1 {
+    font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif;
+    font-size: 37px;
+    
+}
+
+h2 {
+    font-size: 22px;
+    color: #4b4f56;
+    font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif;
+}
+
+.form input {
+    width: 600px;
+    height: 30px;
+}

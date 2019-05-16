@@ -1,0 +1,185 @@
+* {
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: black;
+    margin: 0;
+    color:#cccccc;
+    
+}
+
+ul {
+    margin:0;
+    padding: 15px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+ul li {
+    display: inline;
+    padding: 10px;
+    
+}
+
+ul li:first-child {
+    color:red;
+}
+
+ul li:hover {
+    color:pink;
+    transition: all 1s ease;
+}
+
+ul li:active {
+    color:purple;
+}
+
+#logo {
+    height:60px;
+    background-color: #e22b88;
+    padding: 10px;
+}
+
+img.spodeli {
+    float: right;
+}
+
+#logo img {
+    margin-left:15px;
+}
+
+.blank {
+    height: 40px;
+    border-bottom: 1px solid #b5b5b5;
+}
+
+#main-menu {
+    border-bottom: 1px solid #b5b5b5;
+}
+
+#wrapper {
+    height: 500px;
+    border: 1px solid #b5b5b5;
+    margin-top:20px;
+}
+
+.box-50 {
+    width: 50%;
+    float: left;
+} 
+h2 {
+    text-align: center;
+    font-weight: 100;
+}
+
+img.iphone {
+    height: 300px;
+    position: absolute;
+
+}
+
+img.bоnus {
+    position: absolute;
+    left: 311px;
+    
+
+}
+
+.box-50 .about {
+    margin-top: 100px;
+    padding-left: 50px;
+    
+}
+
+p {
+    color:gray;
+    font-size: 15px;
+}
+
+.line {
+    height: 1px;
+    background-color: #c1c1c1;
+    margin-top: 10px;
+    width: 150px;
+}
+
+span {
+    color: gray;
+    font-size: 14px;
+}
+
+.dogovor {
+    margin-top: 50px;
+
+}
+
+.box-33 {
+    width: 29%;
+    height: 50px;
+    background-color: #dadada;
+    float: left;
+    margin: 10px;
+    text-align: center;
+    padding-top: 14px;
+}
+
+.box-33.active {
+    border: 2px solid #E91E63;
+    background-color: white;
+    color: #E91E63;
+}
+
+.nacin {
+    width: 100%;
+    height:50px;
+    background-color: #dadada;
+    padding: 15px;
+    text-align: center;
+    
+}
+
+
+.box50 {
+    width: 45%;
+    height: 50px;
+    background-color: #dadada;
+    float: left;
+    margin: 10px;
+    text-align: center;
+    padding-top: 14px;
+
+}
+
+.box50.active {
+    border: 2px solid #E91E63;
+    background-color: white;
+    color: #E91E63;
+
+}
+
+input {
+    border-radius: 10px;
+}
+
+.rati {
+    width: 70%;
+    background-color: #E91E63;
+    color:white;
+    float: right;
+    margin:0;
+    height:80px;
+}
+
+
+
