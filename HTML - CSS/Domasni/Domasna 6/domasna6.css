@@ -1,0 +1,62 @@
+div {
+    width: 30%;
+    float: left;
+    padding: 0 15px;
+    margin: 5px;
+}
+
+div ul li {
+    list-style-type: none;
+    text-align: center;
+     
+}
+
+ul#vtor-red {
+   position: inline-block;
+   text-align: center;
+   
+}
+ul.prv-red {
+   background-color: cornflowerblue;
+   margin: 5px;
+}
+
+ul.vtor-red1 {
+   background-color: cornflowerblue;
+   margin: 5px;
+}
+
+ul.vtor-red2 {
+   background-color: cornflowerblue;
+   margin: 5px;
+   
+}
+ul.vtor-red3 {
+   background-color: cornflowerblue;
+   margin: 5px;
+   
+}
+
+ul.tret-red1 {
+   background-color: cornflowerblue;
+   margin: 5px;
+}
+
+ul.tret-red2 {
+   background-color: cornflowerblue;
+   margin: 5px;
+   
+}
+ul.tret-red3 {
+   background-color: cornflowerblue;
+   margin: 5px;
+   
+}
+
+ul.tret-red4 {
+   background-color: cornflowerblue;
+   margin: 5px;
+   
+}
+
+
