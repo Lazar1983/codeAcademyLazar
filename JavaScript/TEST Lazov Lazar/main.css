@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+#main-container {
+    margin: 0 auto;
+    width: 80%;
+}
+
+tr, td {
+    border: 1px solid gray;
+    padding: 10px;
+    font-size: 30px;
+    color: green;
+}
+
+input[type="submit"] {
+    padding: 10px;
+    width: 100px;
+    background: white;
+    border-radius: 10px;
+    margin: 10px;
+    font-size: 20px;
+    color:white;
+}
+
+input.read {
+    color: black;
+}
+
+input.update {
+    background-color: green;
+}
+
+input.delete {
+    background-color: red;
+}
+
+.info {
+    display: none;
+    font-size: 60px;
+    color: rgb(0, 89, 255);
+    text-align: center;
+
+}
+
+.updateEvent {
+    display: none;
+}

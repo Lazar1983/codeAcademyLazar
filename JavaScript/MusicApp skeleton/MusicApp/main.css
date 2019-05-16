@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+
+}
+
+.albumContainer {
+    display: flex;
+}
+
+div#alb0 {
+    display: grid;
+    margin: 20px;
+    text-align: center;
+}
+
+div#alb1 {
+    display: grid;
+    margin: 20px;
+    text-align: center;
+}
+
+div#alb2 {
+    display: grid;
+    margin: 20px;
+    text-align: center;
+}
+
+div#alb3 {
+    display: grid;
+    margin: 20px;
+    text-align: center;
+}
+
+div#alb4 {
+    display: grid;
+    margin: 20px;
+    text-align: center;
+}

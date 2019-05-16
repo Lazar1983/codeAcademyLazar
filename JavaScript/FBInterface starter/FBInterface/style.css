@@ -1,0 +1,54 @@
+.test {
+    color:rgb(0, 153, 255);
+}
+
+.main {
+    margin: 10px; 
+    width: 70%;
+}
+
+#main-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+}
+body {
+    background-color: rgb(0, 140, 255);
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+
+}
+
+.about-me {
+    height: 500px;
+    border: 1px solid gray;
+    margin: 10px; 
+
+}
+
+.user {
+    margin: 10px; 
+    width: 20%;
+}
+
+.stories {
+    height: 500px;
+    margin: 10px; 
+}
+
+.imageStyle {
+    height: 110px;
+    margin: 10px;
+}
+
+.storyRandom {
+    text-align: center;
+    border: 1px solid gray;
+    margin: 10px;
+    height: 100px;
+    font-size: 30px;
+    color: white;
+    border-radius: 25px;
+    padding-top: 60px;
+}
